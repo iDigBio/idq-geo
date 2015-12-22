@@ -14,7 +14,7 @@ setup(
     version='0.1.0',
     description='iDigQuality Georeference Validation Module',
     long_description=read('README.rst') + "\n\n",
-    url='http://github.com/idigbio/idq/',   
+    url='http://github.com/idigbio/idq-geo/',
     license='MIT',
     author='Alex Thompson',
     author_email='godfoder@acis.ufl.edu',

@@ -1,0 +1,2 @@
+recursive-include idq_geo/data *
+include README.rst
