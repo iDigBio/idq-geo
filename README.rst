@@ -18,4 +18,4 @@ Development Setup
     git clone https://github.com/iDigBio/idq-geo.git
     cd idq
     pip install -r requirements.txt
-    python -m idq_geo.harness
+    python -m idq_geo
