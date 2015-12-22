@@ -1,4 +1,3 @@
-from idq.harness import create_harness
 from idq.helpers import WorkflowBase, CombinedWorkflow, filled, field_to_flag
 
 from projection import Projection
@@ -17,12 +16,3 @@ class GeoWorkflow(CombinedWorkflow):
         r = super(GeoWorkflow,self).process(d)
         print r
         return r
-
-def main():
-    w = GeoWorkflow()
-    app = create_harness(w)
-    app.debug = True
-    app.run()
-
-if __name__ == '__main__':
-    main()
