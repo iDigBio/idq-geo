@@ -11,7 +11,7 @@ def read(*paths):
 
 setup(
     name='idq-geo',
-    version='0.0.1',
+    version='0.1.0',
     description='iDigQuality Georeference Validation Module',
     long_description=read('README.rst') + "\n\n",
     url='http://github.com/idigbio/idq/',   
@@ -19,7 +19,7 @@ setup(
     author='Alex Thompson',
     author_email='godfoder@acis.ufl.edu',
     packages=find_packages(exclude=['tests*']),
-    install_requires=['flask', 'flask-bootstrap', 'flask-wtf', 'flask-nav', 'unicodecsv'],
+    install_requires=['shapely', 'fiona', 'pyproj'],
     include_package_data=True,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
